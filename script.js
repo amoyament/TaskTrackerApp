@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const item = itemText.textContent;
       // Setting the new text entered in prompt to updatedItem variable
       const updatedItem = prompt("Enter the updated value:", item);
-      // If the field is left empty implemetn folong code
+      // If the field is left empty implement the following code
       if (updatedItem !== null && updatedItem !== "") {
         // Setting text content to what is enetered in prompt
         itemText.textContent = updatedItem;

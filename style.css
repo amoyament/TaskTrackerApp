@@ -1,26 +1,26 @@
 body {
   text-align: center;
   align-items: center;
-  background-image: url(goku.jpeg);
+  background-image: url("goku.jpeg");
   display: flex;
   flex-direction: column;
 }
 
 h1 {
-  background-color: rgba(0, 0, 0, 0.559);
+  background-color: #0000008d;
   color: whitesmoke;
   font-size: 300%;
 }
 
 label {
-  background-color: rgba(0, 0, 0, 0.559);
+  background-color: #0000008d;
   color: whitesmoke;
   font-size: 200%;
 }
 
 #item-list {
   list-style-type: none;
-  background-color: rgba(0, 0, 0, 0.559);
+  background-color: #0000008d;
   color: whitesmoke;
   width: 80%;
   align-items: center;

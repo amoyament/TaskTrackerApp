@@ -1,19 +1,8 @@
-# Base Templage Repo
+Process of Building...
+The process of building this task tracker application was a difficult one. I first tried looking up ways to create one, but could not find any that really made sense in the context of what I have learned about node so far. So, I looked to the example app that was provided but found no node on it. I later expressed my concerns to our instructor and he said to start by creating a simple task tracker without node, and then utilize node to tie it to a database (ie the json file).
+Well, I tried a few things and looked up some documentation and asked chat GPT to explain most of the documentation to me. Still feeling a little lost, I reached out to my cousin who is a software developer for some help.
+At first the ideas she gave me weren't totally making sense. So she walked through the process with me and we went step by step to create my exisiting task tracker application.
 
-A template for repos that will enforce linting in their codebase
-
-## HTML
-
-[list of HTML rules](https://htmlhint.com/docs/user-guide/list-rules)
-
-## CSS
-
-[list of CSS rules](https://stylelint.io/)
-
-## JavaScript
-
-[list of JavaScript rules](https://eslint.org/)
-
-## SQL
-
-[list of SQL rules](https://github.com/joereynolds/sql-lint)
+Challenges...
+I would say the biggest challenege I faced was understanding that the front end and back end are completely seperate entites, but also closely linked. Getting behind the idea of creating one js file for my front end and one js file for my backend was a little confusing, but I trused my cousin as she helped me through the process and by the end, I was able to understand exactly why we had separate files. Not only that, I was also able to understand exactly where and how the two files affected eachother so that I could successfully update and edit the code she helped me create. This also came into play with adding class lists. Knowing that we can affect what happens to our backend code by setting class lists in the front end was kind of new to me, but very exciting when I got the hang of it.
+Another challenege I faced was visaulizing all of the effects of my code without having it right in front of me. This isn't as much of a thing when working on the front end, because you can see exactly what is happening to your code in real time. This is where I really learned how important it is to console.log EVERYTHING. People have told me over and over in past projects how important it is, but I haven't much faced the need to in front end projects. So it was very new to me in this project since I haven't been doing it from the start of my coding journey. Some of the things we console.log can be confusing to look at and break down, which is why I don't much like to. However, once I got used to breaking things down and breaking my code to find the problems, back end doesn't seem quite so daunting and scary.

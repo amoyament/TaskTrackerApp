@@ -1,0 +1,35 @@
+body {
+  text-align: center;
+  align-items: center;
+  background-image: url(goku.jpeg);
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  background-color: rgba(0, 0, 0, 0.559);
+  color: whitesmoke;
+  font-size: 300%;
+}
+
+label {
+  background-color: rgba(0, 0, 0, 0.559);
+  color: whitesmoke;
+  font-size: 200%;
+}
+
+#item-list {
+  list-style-type: none;
+  background-color: rgba(0, 0, 0, 0.559);
+  color: whitesmoke;
+  width: 80%;
+  align-items: center;
+  font-size: 200%;
+}
+
+.remove-button,
+.edit-button {
+  font-size: 60%;
+  margin-left: 5px;
+  padding: 0.2px 1px;
+}
